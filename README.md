@@ -2,11 +2,11 @@
 
 This project is a Jump Height Estimator built using Python, OpenCV, MediaPipe, Tkinter, and PIL. It detects the user's jump using pose landmarks and estimates the height of the jump based on the hip position tracked over time.
 
-How It Works:
+##How It Works:
 
 Pose Detection: MediaPipe Pose is used to detect the human body landmarks in each video frame.
 
-Jump Height Calculation: 
+##Jump Height Calculation: 
 
 It specifically tracks the left hip landmark's y-coordinate.
 
@@ -16,11 +16,11 @@ While jumping, the minimum y-position is updated (the highest point of the jump)
 
 Jump height is calculated as the difference between the initial and minimum y-values.
 
-Video Processing:
+##Video Processing:
 
 You can use your webcam in real-time or upload a video file (.mp4, .avi) to estimate the jump height.
 
-User Interface: 
+##User Interface: 
 
 A simple Tkinter GUI is designed with buttons to:
 
@@ -29,7 +29,7 @@ Upload a pre-recorded video
 Stop video
 Reset the results
 
-Libraries Used:
+##Libraries Used:
 
 tkinter – for GUI
 
