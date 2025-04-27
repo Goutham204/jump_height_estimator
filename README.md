@@ -9,8 +9,11 @@ Pose Detection: MediaPipe Pose is used to detect the human body landmarks in eac
 Jump Height Calculation: 
 
 It specifically tracks the left hip landmark's y-coordinate.
+
 At the start, the initial y-position of the hip is recorded.
+
 While jumping, the minimum y-position is updated (the highest point of the jump).
+
 Jump height is calculated as the difference between the initial and minimum y-values.
 
 Video Processing:
@@ -29,7 +32,10 @@ Reset the results
 Libraries Used:
 
 tkinter – for GUI
+
 cv2 (OpenCV) – for video processing
+
 mediapipe – for pose estimation
+
 PIL (Pillow) – for displaying video frames inside Tkinter
 
